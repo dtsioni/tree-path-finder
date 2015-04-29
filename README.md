@@ -15,7 +15,7 @@ I used a stack to keep track of the current path, which pushes each node as it g
 ###Example:
 
 Example tree:
-'         (5)
+`         (5)
          / \
        (3)  (-2)
       /   \    \
@@ -37,4 +37,4 @@ Output:
 ---------
 1
 ---------
-'
+`
