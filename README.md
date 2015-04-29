@@ -26,11 +26,12 @@ Example tree:
                    /
                  (5)
 ```
+Execution:
 ```
 traverse(root, 1)
 ```
-```
 Output:
+```
 3
 -9
 7
