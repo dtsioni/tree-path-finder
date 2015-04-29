@@ -15,7 +15,7 @@ I used a stack to keep track of the current path, which pushes each node as it g
 ###Example:
 
 Example tree:
-`
+```
          (5)
          / \
        (3)  (-2)
@@ -25,9 +25,11 @@ Example tree:
 (-10)(2)(7) (1)   (-18)
                    /
                  (5)
-
+```
+```
 traverse(root, 1)
-
+```
+```
 Output:
 3
 -9
@@ -38,4 +40,4 @@ Output:
 ---------
 1
 ---------
-`
+```
