@@ -1,9 +1,9 @@
 # tree-path-finder
-Problem:
+##Problem:
 
 You are given a binary tree in which each node contains a value. Design an algorithm to print all paths which sum to a given value. The path does not need to start or end at the root or a leaf.
 
-My solution:
+##My solution:
 
 I have two recursive methods, traverse and search.
 Traverse will go to each node in the tree and run search on it.
