@@ -11,3 +11,29 @@ Search will find the value of each path underneath this node. If it is equal to 
 Both of these are necessary because the path does not need to start at the root.
 
 I used a stack to keep track of the current path, which pushes each node as it goes down and pops it as it goes back up. The sum of the path is kept track of and whenever it equals the given value, it prints each node in the path stack.
+
+###Example:
+
+Example tree:
+         (5)
+         / \
+       (3)  (-2)
+      /   \    \
+   (11)   (-9) (18)
+   / \    /  \    \
+(-10)(2)(7) (1)   (-18)
+                   /
+                 (5)
+
+traverse(root, 1)
+
+Output:
+3
+-9
+7
+---------
+11
+-10
+---------
+1
+---------
